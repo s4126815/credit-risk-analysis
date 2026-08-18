@@ -1,0 +1,19 @@
+Credit Risk Analysis
+====================
+
+Random state: 42
+Training proportion: 0.75
+Testing proportion: 0.25
+scikit-learn version: 1.9.0
+Positive class: 1 = default / bad credit / higher risk
+Train-test split: stratified
+Categorical variables: one-hot encoded
+Numeric/ordinal variables: standardised
+Preprocessing fitted on training data only
+Logistic Regression class_weight: balanced
+SVM kernel: RBF
+SVM C: 1.0
+SVM gamma: scale
+SVM class_weight: balanced
+South German cost: 5 × FN + 1 × FP
+Feature importance: permutation importance using Logistic Regression and ROC-AUC
